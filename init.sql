@@ -14,5 +14,5 @@ CREATE TABLE employee(
     phone VARCHAR(255)
 );
 
-INSERT INTO employee (id, name, email, phone)
-VALUES  (1, 'Genesis', 'genesis@example.com', '1245458965');
+INSERT INTO employee (name, email, phone)
+VALUES  ('Genesis', 'genesis@example.com', '1245458965');
