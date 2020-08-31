@@ -7,9 +7,12 @@
 INSERT INTO books (author, title)
 VALUES  ('J.K. Rowling', 'Harry Potter'); */
 
-CREATE DATABASE pernstack;
-
-CREATE TABLE todo(
-    todo_id SERIAL PRIMARY KEY,
-    description VARCHAR(255)
+CREATE TABLE employee(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    phone VARCHAR(255)
 );
+
+INSERT INTO employee (id, name, email, description)
+VALUES  (1, 'Genesis', 'genesis@example.com', 'test');
